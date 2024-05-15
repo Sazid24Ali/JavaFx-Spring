@@ -9,6 +9,7 @@ public class StudentServiceImppl implements StudentService{
     @Autowired
     StudentRepo studentRepo;
 
+
     @Override
     public String AddData(Student dataStudent) {
         studentRepo.save(dataStudent);

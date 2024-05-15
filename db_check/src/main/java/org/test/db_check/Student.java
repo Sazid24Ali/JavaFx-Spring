@@ -8,9 +8,8 @@ import lombok.Data;
 @Entity
 @Data
 public class Student {
-    
+
     @Id
-    // @GeneratedValue
     private Integer Sid;
     private String SName;
 }
