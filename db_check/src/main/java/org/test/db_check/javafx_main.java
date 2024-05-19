@@ -9,14 +9,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
 public class javafx_main extends Application {
-
 
     private ConfigurableApplicationContext context;
 
     // public static void main(String[] args) {
-    //     launch(args);
+    // launch(args);
     // }
 
     @Override
@@ -37,8 +35,7 @@ public class javafx_main extends Application {
 
     @Override
     public void stop() {
-        context.close();
+        this.context.close();
     }
 
-    
 }
